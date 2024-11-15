@@ -1,6 +1,6 @@
 function firstWord(str) {
     
-    let spl = str.split(" ");
+    let spl = str.trim().split(" ");
     
 
     return spl[0];
